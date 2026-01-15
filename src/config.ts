@@ -1,91 +1,118 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Ethan Xiao",
+  title: "CS + Economics @ Vanderbilt | Product Engineer (Mobile)",
+  description: "Portfolio website of Ethan Xiao",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "ethan.xiao@vanderbilt.edu",
+    linkedin: "https://www.linkedin.com/in/ethan-xiao",
+    twitter: "", // optional (leave blank if you don't want it shown)
+    github: "https://github.com/exiao07",
   },
+
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I’m a Computer Science + Economics student at Vanderbilt (GPA: 4.0) building full-stack products with a focus on mobile engineering, data-driven iteration, and clean UX. I’ve shipped multiple apps to the Apple App Store end-to-end using React Native + TypeScript and backend services with Node.js, Express, and Firebase. Previously, I built CPQ analytics dashboards at RenaissanceTech and supported reproducible research workflows at Harvard. I’m excited about building software that’s practical, scalable, and genuinely useful.",
+
+  skills: [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C/C++",
+    "SQL",
+    "React",
+    "React Native",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Firebase",
+    "AWS",
+    "Docker",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "CrewOps — Full-Stack Mobile Platform",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A full-stack crew management platform built with React Native (Expo) to manage athletes, boats, practices, and regattas with lineup validation, seat optimization, reliability scoring, and performance analytics.",
+      link: "", // add GitHub or demo link if you have one
+      skills: ["React Native", "TypeScript", "Expo", "State Management"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Habit Tracker (iOS)",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A habit-tracking iOS app featuring streak analytics and engagement-focused UX, built and shipped end-to-end to the App Store.",
+      link: "", // add App Store link if you want
+      skills: ["React Native", "TypeScript", "Firebase"],
     },
     {
-      name: "ExtensionKit",
+      name: "Study Timer + Task Manager (iOS)",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A productivity app combining a study timer with task management workflows, built full-stack with real-time persistence and clean UI patterns.",
+      link: "",
+      skills: ["React Native", "TypeScript", "Node.js"],
+    },
+    {
+      name: "Local Events Discovery App (iOS)",
+      description:
+        "A location-based events discovery app with backend data services and user-friendly browsing flows, shipped to production on iOS.",
+      link: "",
+      skills: ["React Native", "TypeScript", "Firebase"],
     },
   ],
+
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Independent Product Development",
+      title: "Product Engineer (Mobile)",
+      dateRange: "May 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Built and shipped multiple full-stack mobile apps to the Apple App Store, including a habit tracker with streak analytics, a study timer + task manager, and a local events discovery app.",
+        "Developed mobile features in React Native + TypeScript and backend services using Node.js, Express, and Firebase (auth, persistence, real-time updates).",
+        "Designed subscription + in-app purchase monetization flows and iterated post-launch using engagement metrics, generating $1,000+ profit and 1,000+ cumulative downloads.",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "RenaissanceTech",
+      title: "Development Intern",
+      dateRange: "Jun 2024 - Aug 2024",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "Developed interactive CPQ analytics dashboards using React.js and JavaScript, integrating pricing and sales data via internal APIs for real-time tracking.",
+        "Wrote unit + integration tests, debugged production-bound releases, and collaborated with engineers to resolve defects across multiple deployments.",
+        "Queried and analyzed CPQ datasets with SQL, traced data flows, and surfaced edge cases that influenced feature prioritization for 10+ mid-market manufacturing clients.",
+        "Refactored frontend components and API integration logic to improve data consistency and scalability using modular React patterns and defensive input handling.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Dr. David Kane’s Research Lab (Harvard University)",
+      title: "Lead Teaching & Research Assistant",
+      dateRange: "May 2022 - May 2024",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "Co-authored a section of a peer-reviewed paper on quantitative data ethics, translating reproducibility standards into concrete engineering practices.",
+        "Built reproducible workflows in Python and R (RStudio), transforming raw research inputs into validated, analysis-ready datasets.",
+        "Wrote data cleaning + quality-check scripts for datasets with 11,800+ observations, implementing integrity checks to reduce downstream debugging.",
       ],
     },
   ],
+
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Vanderbilt University",
+      degree: "B.S. Computer Science & Economics (Chancellor’s Scholar)",
+      dateRange: "May 2027",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "GPA: 4.0/4.0",
+        "Activities: Men’s Rowing, Christian Fellowship, Research Assistant",
+        "Coursework: Linear Algebra, Data Structures, Algorithms, OOP, Statistics",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "The Ohio State University",
+      degree: "Minor in Mathematics",
+      dateRange: "",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "GPA: 3.95/4.0",
+        "Coursework: Calculus I–III, Differential Equations, Finite Linear Math",
       ],
     },
   ],
