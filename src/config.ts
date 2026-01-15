@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Ethan Xiao",
-  title: "CS + Economics @ Vanderbilt | Product Engineer (Mobile)",
+  title: "CS + Economics @ Vanderbilt | App Developer",
   description: "Portfolio website of Ethan Xiao",
   accentColor: "#1d4ed8",
   social: {
@@ -11,7 +11,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "I’m a Computer Science + Economics student at Vanderbilt (GPA: 4.0) building full-stack products with a focus on mobile engineering, data-driven iteration, and clean UX. I’ve shipped multiple apps to the Apple App Store end-to-end using React Native + TypeScript and backend services with Node.js, Express, and Firebase. Previously, I built CPQ analytics dashboards at RenaissanceTech and supported reproducible research workflows at Harvard. I’m excited about building software that’s practical, scalable, and genuinely useful.",
+    "I’m a Computer Science + Economics student at Vanderbilt building full-stack products with a focus on mobile engineering, data-driven iteration, and clean UX. I’m excited about building software that’s practical, scalable, and impactful to others.",
 
   skills: [
     "Python",
@@ -34,16 +34,17 @@ export const siteConfig = {
     {
       name: "CrewOps — Full-Stack Mobile Platform",
       description:
-        "A full-stack crew management platform built with React Native (Expo) to manage athletes, boats, practices, and regattas with lineup validation, seat optimization, reliability scoring, and performance analytics.",
+        "A full-stack rowing management platform built with React Native (Expo) to manage athletes, boats, practices, and regattas with lineup validation, seat optimization, reliability scoring, and performance analytics.",
       link: "", // add GitHub or demo link if you have one
       skills: ["React Native", "TypeScript", "Expo", "State Management"],
     },
     {
-      name: "Habit Tracker (iOS)",
-      description:
-        "A habit-tracking iOS app featuring streak analytics and engagement-focused UX, built and shipped end-to-end to the App Store.",
-      link: "", // add App Store link if you want
-      skills: ["React Native", "TypeScript", "Firebase"],
+      name: "Baby Party Arcade (HTML5 Canvas Mini-Game Suite)",
+  description:
+    "Built a single-file, touch-first arcade web app for babies/toddlers using vanilla HTML/CSS/JS + an HTML5 Canvas render loop. Includes 4 mini-games (Pop Bubbles, Chase Star, Animal Tap, Music Pad) with a shared particle/confetti engine, streak + tap scoring, responsive iPad layouts, Web Audio feedback, optional text-to-speech prompts, persistent settings via localStorage, and a 3-second “Parent” gate for safety controls. Runs offline-friendly and can be saved as a Home Screen app on iOS.",
+  link: "https://github.com/ethanxiao/baby-game",
+  skills: ["JavaScript", "HTML5 Canvas", "HTML", "CSS", "Web Audio API", "localStorage"],
+
     },
     {
       name: "Study Timer + Task Manager (iOS)",
@@ -51,13 +52,6 @@ export const siteConfig = {
         "A productivity app combining a study timer with task management workflows, built full-stack with real-time persistence and clean UI patterns.",
       link: "",
       skills: ["React Native", "TypeScript", "Node.js"],
-    },
-    {
-      name: "Local Events Discovery App (iOS)",
-      description:
-        "A location-based events discovery app with backend data services and user-friendly browsing flows, shipped to production on iOS.",
-      link: "",
-      skills: ["React Native", "TypeScript", "Firebase"],
     },
   ],
 
@@ -99,7 +93,7 @@ export const siteConfig = {
     {
       school: "Vanderbilt University",
       degree: "B.S. Computer Science & Economics (Chancellor’s Scholar)",
-      dateRange: "May 2027",
+      dateRange: "",
       achievements: [
         "GPA: 4.0/4.0",
         "Activities: Men’s Rowing, Christian Fellowship, Research Assistant",
@@ -107,7 +101,7 @@ export const siteConfig = {
       ],
     },
     {
-      school: "The Ohio State University",
+      school: "The Ohio State University - High School Dual Enrollment",
       degree: "Minor in Mathematics",
       dateRange: "",
       achievements: [
